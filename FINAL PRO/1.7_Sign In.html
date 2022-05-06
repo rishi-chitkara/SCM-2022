@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+html, body {
+    margin: 0;
+    padding: 0;
+}
+/Header part/
+#div_head{
+  background-color: #333;
+  height: 25vh;
+  width: 100%;
+  color: white;
+  font-family: sans-serif;
+  
+}
+#div_head img {  
+  width: 13%; 
+  height: 85%;
+  margin-left: 10%;
+  margin-top: 1%;
+  display: inline-block;
+}
+@media (max-width: 600px) {
+  #div_head img {  
+  width: 0%; 
+  }
+}
+#com-name{
+  color: #ffa500;
+}
+#full-name{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3vw;
+  letter-spacing: 2px;
+  margin-left: 17%;
+  display: inline-block;
+  position: relative;
+  top: -38%;
+}
+@media (max-width: 600px) {
+  #full-name{
+  font-size: 42px;
+  margin-left: 8%;
+}
+}
+#options{
+  margin-left: 15%; 
+  position: relative;
+  top: -40%;
+}
+#options a{
+  text-decoration: none;
+  color: white;
+}
+#options a:hover{
+  color: orange;
+}
+#div_heads{
+  font-size: 1.5vw;
+}
+#div_heads:hover{
+  background-color: #333;
+  color: #ffa500;
+  font-family: sans-serif;
+  font-size: 1.5vw;
+}
+@media (max-width: 600px) {
+  #options{
+  margin-left: 2%;
+}
+#div_heads{
+    position: relative;
+    left: -35%;
+    font-size: 0;
+ }
+}
+select {
+appearance: none;
+  border: none;
+}
+option{
+  border: none;
+}
+#signin-box{
+    background-color: #333;
+    border: none;
+    font-family: sans-serif;
+    font-size: 1rem;
+    position: relative;
+    top: -40%;
+    color: white;
+    visibility: hidden;
+}
+@media (max-width: 600px) {
+  #signin-box{
+     visibility: visible;
+  }
+}
+/Options-part/
+#pages-options{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 28%;
+}
+@media (max-width: 600px) {
+  #pages-options{
+  margin-left: 0%;
+}
+}
+.borders{
+  border: 1px solid black;
+  border-radius: 7px;
+  font-size: 20px;
+  padding: 3px 15px 3px 15px;
+}
+.borders a{
+  text-decoration: none;
+  color: black;
+}
+.borders a:hover{
+  color: white;
+}
+@media (max-width: 600px) {
+  .borders{
+  font-size: 15px;
+  padding: 3px 12px 3px 12px;
+}
+}
+.borders:hover{
+  background-color: #333;
+  border: 1px solid #333;
+  border-radius: 7px;
+  font-size: 20px;
+  color: white;
+}
+@media (max-width: 600px) {
+  .borders:hover{
+  font-size: 15px;
+}
+}
+#signin-options{
+  visibility: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 600px) {
+  #signin-options{
+  visibility: visible;
+  }
+}
+/Account-section/
+*{
+	box-sizing: border-box;
+}
+#back-img{
+    background-image: url("https://wallpaperaccess.com/full/288027.jpg");
+    width: 100%;
+	height: 100%;
+	background-size: cover;
+    z-index: -1;
+    padding: 5%;
+}
+#account{
+    width: 30%;
+    height: 58%;
+    margin-left: 35%;
+    margin-top: -20px;
+    border-radius: 10px;
+    background-color:  rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px #000;
+}
+@media(max-width:600px){
+    #account{
+        width: 75%;
+        margin-left: 10%;
+        }
+    }
+#middle-part{
+    margin-top: 30px; 
+    margin-left: 25%;
+}
+#signin-text{
+    font-family: sans-serif; 
+    font-size: 2vw; 
+    margin-left: 18%;
+    color: white;
+}
+@media(max-width:600px){
+    #signin-text{
+        font-size: 5vw; 
+    } 
+}
+#logo-text{
+    font-family: sans-serif; 
+    font-size: 1.5vw;
+    color: white;
+    margin-left: -6%;
+}
+@media(max-width:600px){
+    #logo-text{
+        font-size: 3vw; 
+    } 
+}
+#input-heading{
+    color: white;
+    font-size: 1.4vw;
+    font-family: poppins;
+    margin-left: 7%;
+}
+@media(max-width:600px){
+    #input-heading{
+        font-size: 2.8vw;
+    }
+}
+#input-box{
+    width: 80%; 
+    margin-left: 7%; 
+    padding:10px; 
+    font-size: 15px; 
+    border-radius: 3px;
+    border: none;
+}
+#account-password{
+    color: white; 
+    margin-left: 7%; 
+    font-family: sans-serif;
+    font-size: 1.2vw;
+}
+#account-password a{
+    text-decoration: none;
+    color: white;
+}
+@media(max-width:600px){
+    #account-password{
+        font-size: 2.4vw;
+    }
+}
+#button{
+    background-color: deepskyblue; 
+    color: white; 
+    font-family: sans-serif; 
+    border-color: deepskyblue; 
+    border-radius: 3px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3%;
+    padding-right: 3%; 
+    font-weight: 600; 
+    font-size: 1.2vw;
+    width: 80%;
+}
+@media(max-width:600px){
+    #button{
+        font-size: 1.7vw;
+    }
+}
+#links{
+    color: #7a7a7a;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+@media(max-width:600px){
+    #links{
+        font-size: 2.1vw;
+    }
+}
+#language{
+    border: none;
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+@media(max-width:600px){
+    #language{
+        font-size: 2.1vw;
+    }
+}
+/footer part/
+#footer{
+  background-color: #555555;
+  width: 100%;
+  height: 30vh;
+}
+#footer img{
+  width: 13%;
+  height: 70%;
+  display: inline-block;
+  margin-left: 7%;
+  position: relative;
+  top: 4.5vh;
+}
+@media (max-width:600px){
+  #footer img{
+    width: 35%;
+    height: 55%;
+    position: relative;
+    top: 5.7vh;
+    }
+}
+#footer div{
+  display: inline-block;
+}
+#rights{
+  color: white;
+  width: 30%;
+  margin-left: 67%;
+  font-family: sans-serif;
+  position: relative;
+  top: -17vh;
+}
+@media (max-width:600px){
+  #rights{
+  width: 50%;
+  margin-left: 47%;
+  position: relative;
+  top: -12vh;
+}
+}
+#rights a{
+  color: orange;
+  text-decoration: none;
+}
+#contact-us{
+  display: inline-block;
+  color: white;
+  font-family: poppins;
+  font-size: 2vw;
+  margin-left: 73%;
+  position: relative;
+  top: -10vh;
+}
+@media (max-width:600px){
+  #contact-us{
+  font-size: 4vw;
+  margin-left: 53%;
+  position: relative;
+  top: -10vh;
+}
+}
+#icons{
+  width: 20%;
+  margin-left: 76%;
+  color: white;
+  position: relative;
+  top: -7vh;
+}
+@media (max-width:600px){
+  #icons{
+  position: relative;
+  top: -8vh;
+  margin-left: 55%;
+  width: 40%;
+}
+}
+#icons > i{
+  margin-left: 12%;
+}
+@media (max-width:600px){
+  #icons > i{
+  margin-left: 8%;
+}
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div id="div_head">
+          <img src="https://media.istockphoto.com/vectors/bon-voyage-registration-quote-vector-id1045172450">
+          <div id="full-name"> <span id="com-name">B</span>ON&nbsp;&nbsp;<span id="com-name">V</span>OYAGE</div>
+          <span id="options"><span id="div_heads"><a href="1.2_Book Now.html">Book Now</a></span><span id="div_heads" style="margin-left: 2%;"><a href="1.7_Sign In.html">Sign in</a></span></span>
+      </div><br>
+      <div id="pages-options">
+      <span class="borders" style="margin-left: 25px; margin-top: 10px;"><a href="1.0_Home Page.html">Home</a> </span><span class="borders"  style="margin-left: 25px; margin-top: 10px;"><a href="2.0_Packages.html">Packages</a></span><span class="borders"  style="margin-left: 25px; margin-top: 10px;"><a href="3.0_Articles.html">Trip Articles</a></span><span class="borders"  style="margin-left: 25px; margin-top: 10px;"><a href="4.0_More to Explore.html">More to Explore</a></span><span class="borders"  style="margin-left: 25px; margin-top: 10px;"><a href="6.0_Enquiry.html">Enquiry</a></span>
+      </div>
+      </header><br><br>
+<div id="back-img"> 
+    <div id="account">
+        <div id="middle-part">
+            <br>
+            <span id="signin-text">Sign in</span><br><br>
+            <span id="logo-text">to continue with Bon Voyage</span>
+        </div><br><br>
+        <div id="input">
+            <div id="input-heading">Email</div>
+            <input type="email" name="email" placeholder="Your Email address" id="input-box"><br><br>
+            <div style="margin-left: 7%;" id="input-heading">Password</div>
+            <input type="password" name="email" placeholder="Your Password" id="input-box"><br><br>
+            <span id="account-password">Forgot Password</span>
+            <span id="account-password" style="margin-left: 21%;"><a href="1.6_Sign Up.html">Create Account</a></span><br><br>
+            <span style="margin-left: 7%;">
+            <button name="next" type="submit" id="button">Login</button>
+        </span><br><br>
+        </div>
+    </div>
+    </div>
+    <br>
+    <div id="footer">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_oydf-897uHS4LFt762rur9mJ6FMnw1Sp-w&usqp=CAU">
+        <div id="rights">All right reserved <a href="#"> Privacy policies</a>,<a href="#"> Terms of use</a>,<a href="#"> Terms and conditions</a>.</div><br>
+        <div id="contact-us">
+          For any query contact us at
+        </div>
+        <div id="icons"><i class="fab fa-facebook fa-2x" style="margin-left: 0%;"></i><i class="fab fa-youtube fa-2x"></i><i class="fab fa-instagram fa-2x"></i><i class="fab fa-twitter fa-2x"></i></div>
+      </div>
+</body>
+</html>
