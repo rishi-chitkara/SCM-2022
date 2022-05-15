@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #topimg{
     position: relative;
    
@@ -131,4 +132,139 @@ font-weight: bold;
     color:white;
     font-size: 15px;
     cursor: pointer;
+=======
+#topimg{
+    position: relative;
+   
+}
+#h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    margin-top: -100px;
+    margin-left: 40px;
+    position: absolute;
+}
+#img{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+#p1{
+    margin-left: 260px;
+    margin-top: -230px;
+  
+    
+}
+#subp1{
+    text-transform: capitalize;
+    color:#0071c2;
+    font-size: 24px;
+    font-weight: bold;
+   
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+#subp2{
+    text-transform: capitalize;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Roboto';
+    margin-top: -20px;
+}
+#subp3{
+    width: 370px;
+    font-weight: 700px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#subp4{
+    background-color: #003580;
+    border-radius: 6px 6px 6px 0px;
+    color: white;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+   padding-top: 10px;
+    font-size: 20px;
+}
+#superb{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#op{
+    margin-left: 330px;
+    margin-top: -28px;
+
+}
+#review{
+margin-left: 245px;
+margin-top: -30px;
+font-weight: bold;
+}
+#divmain2{
+    margin-left: 650px;
+    margin-top: -170px;
+}
+#price1{
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: capitalize;
+        
+}
+#price2{
+    font-size: 25px; 
+    color: #008009;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+#price3{
+    font-size: 14px;
+    margin-top: -15px;
+    margin-left: 70px;
+
+}
+#mainbox1{
+    margin-top: 20px;
+    background-color: #EEE2DC;
+    border: rgba(0, 0, 0, 0.123) 0.1px solid;
+    border-radius: 10px;
+    height: 300px;
+}
+#mainbox2{
+    margin-top: 20px;
+    background-color: #EEE2DC;
+    border: rgba(0, 0, 0, 0.123) 0.1px solid;
+    border-radius: 10px;
+    height: 330px;
+}
+#mainbox3{
+    margin-top: 20px;
+    background-color: #EEE2DC;
+    border: rgba(0, 0, 0, 0.123) 0.1px solid;
+    border-radius: 10px;
+    height: 300px;
+    margin-top: 110px;
+}
+#div_BOOKNOW{
+    margin-left: 830PX;
+    margin-top: -75px;
+
+}
+#booknow{
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #0071c2;
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+>>>>>>> fb8d4381fd953cbac79ca70c0c6bde1799c0282e
 }
