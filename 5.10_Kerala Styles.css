@@ -1,0 +1,132 @@
+main{
+  display: block;    
+  background: linear-gradient(90deg, #D47AE8 1%, #F4BEEE 5%, #A8ECE7 16%, #FDFF8F 70%, #A8ECE7 84%, #F4BEEE 98%, #D47AE8 100%);
+  border: 3.5px dotted black;
+  } 
+
+#mainAll{
+  margin: 2% 22%;
+}
+
+#headings{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 15px 13px 7px black;
+    color: black;
+}
+
+#image{
+  float: right;
+  width: 40%;
+  height: 40%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: double 5px;
+  padding: 5px;
+}
+
+#text{
+  padding: 5px 20px;
+  text-align: left;
+  font-size: 130%;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+/*Kerala Food*/
+#krFood{
+  border: solid 5px black;
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.krImg{   /*Food and places image class*/
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: -3px -3px 8px 4px rgba(0, 0, 0, 0.89);
+}
+@media (max-width:600px){
+  .krImg{
+    width: 100px;
+  height: 130px;
+  }
+  
+}
+
+.krTxt{   /*Food and places text class*/
+  font-size: 120%;
+  text-align: right;
+}
+
+#krFImgIdiya, #krFImgPtu, #krFImgApm{
+  float: left;
+}
+
+/*Kerala Famous Places*/
+#krFamousPlaces{
+  border: solid 5px black;
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+#krFPImgKochi, #krFPImgKovalamB, #krFPImgVagamonH{
+  float: right;
+  box-shadow: 3px 3px 8px 4px rgba(0, 0, 0, 0.89);
+  border-radius: 10px;
+}
+
+#krTxtKochi, #krTxtKovalamB, #krTxtVagamonH{
+  text-align: left;
+}
+
+/*Kerala Things to do*/
+#krTTD{
+  border: solid 5px black;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.krImgTTD{    /*TTD image class*/
+  width: auto;
+  height: auto;
+}
+@media (max-width:600px){
+  .krImgTTD{
+    width: 100px;
+  height: 130px;
+  }
+  
+}
+
+#krImTDD{    /*TTD image id*/
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: center;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1{
+  text-align: center;
+}
+
+.exc h1{
+  color: #ff9274;
+  text-shadow: 2px 2px 1px black;
+}
+
+.exc h2{
+  color: #000080;
+  text-shadow: 2px 2px 1px white;
+}
+

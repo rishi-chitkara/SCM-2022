@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+main{
+
+    background:rgb(255, 226, 132);
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.status H1{
+    text-align: center;
+    font-weight: 1000;
+    font-size: xx-large;
+}
+
+
+
+
+.card img{
+
+    border-radius: 5%;
+    margin-right: 1rem;
+}
+
+
+
+.card{
+                                                                                                                                                                                                display: flex;;
+    background: linear-gradient(to left top , rgba(255,255,255,0.8) , rgba(255,255,255,0.5));
+    border-radius: 1rem;
+    margin:2rem 2rem;
+    padding:2rem 2rem;
+    box-shadow: 6px 6px 20px rgba(122,122,122,0.2);
+                                                                                                                                                                                                justify-content:space-between;
+
+}
+
+.fprice{
+    font-size: 20px;
+    color: green;
+}
+
+.oprice{
+    font-size: 14px;
+    color: grey;
+    text-decoration: line-through;
+}
+
+
+
+
+.cta-hotel{
+    border:2px solid transparent;
+    background: rgb(255, 206, 45);
+    color: white;
+    width: 150px ;
+    height: 50px ;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px 0px 0px 30px;}
+
+
+.cta-book{
+    border: 2px solid rgb(255, 206, 45);
+            background: transparent;
+            color: black;
+            width: 150px ;
+            height: 50px ;
+            cursor: pointer;
+
+
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px 0px 0px 30px;}
+
+
+.included{
+    padding: 20px;
+
+}
+    
+.included ul{
+    list-style-type: none;
+}
+
+.topadv{
+    background-color:slategray; color: white;  text-align: center;
+}
+
+button{
+    font-size: large;
+    background-color: rgb(78, 89, 99);
+    color: white;
+
+    padding:2px;
+
+
+}
