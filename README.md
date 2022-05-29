@@ -19,3 +19,9 @@ Now you can see the contents of the remote repository on your machine by moving 
     cd SCM-2022/
     ls -la
     
+    
+## Collaborators 
+1. Rishi Singh Yadav
+2. Prince
+3. Mayank Agarwal
+4. Vikram
